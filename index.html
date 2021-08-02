@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Test Project</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer type="text/javascript" src="src/index.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <div id="header-background"></div>
+  </header>
+
+  <!-- success page -->
+  <div class="_hide" id="page_one">
+
+    <div class="success_numbers_div_flex">
+
+      <div>
+        <p class="_24px _bold" id="monthly_number"></p>
+        <p id="monthly_number_text">MONTHLY</p>
+      </div>
+      <div>
+        <p class="_24px _bold" id="month_number"></p>
+        <p id="month_number_text">MONTHS</p>
+      </div>
+      <div>
+        <p class="_24px _bold" id="down_number"></p>
+        <p id="down_number_text">DOWN</p>
+      </div>
+
+    </div>
+
+    <div class="success_bullets_div_flex _mt-2">
+
+      <div>
+        <ul id="bullets_list" style="list-style-type: none;">
+          <!-- bullets here -->
+        </ul>
+      </div>
+
+      <div><button id="quote">REQUEST A QUOTE</button></div>
+
+    </div>
+
+  </div>
+
+  <!-- error page -->
+  <div id="page_two">
+    <p id="deal">Sorry, no offer found.</p>
+    <button id="dealer">FIND A DEALER</button>
+    <button id="quote_error">REQUEST A QUOTE</button>
+  </div>
+</body>
+
+</html>
